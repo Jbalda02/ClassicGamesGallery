@@ -8,9 +8,9 @@ import Gallery from "./Gallery";
 function App() {
    return(
        <div>
-       <Header></Header>
-       <Gallery></Gallery>
-      </div>
+            <Header></Header>
+            <Gallery></Gallery>
+       </div>
    );
 }
 export default App
