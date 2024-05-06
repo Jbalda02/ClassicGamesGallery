@@ -5,6 +5,7 @@ import WordleIcon from './Assets/letter-uppercase-square-w-svgrepo-com.svg';
 import SudokuIcon from "./Assets/sudoku-svgrepo-com.svg";
 import SpaceInvIcon from './Assets/game-svgrepo-com.svg';
 import {Link, Routes} from "react-router-dom";
+import GameCanvas from "./GameCanvas";
 
 function Gallery() {
     return (
@@ -26,12 +27,12 @@ function Gallery() {
                 </div>
             </div>
             <Routes>
-                <Route path={} element={} />
-                <Route path={} element={} />
-                <Route path={} element={} />
-                <Route path={} element={} />
-                <Route path={} element={} />
-                <Route path={} element={} />
+                <Route path={} element={<GameCanvas game={<TetrisGame />} />} />
+                <Route path={} element={<GameCanvas game={<LandMineGame />} />} />
+                <Route path={} element={<GameCanvas game={<RockPaperScissorsGame />} />} />
+                <Route path={} element={<GameCanvas game={<WordleGame />} />} />
+                <Route path={} element={<GameCanvas game={<SudokuGame />} />} />
+                <Route path={} element={<GameCanvas game={<SpaceInvadersGame />} />} />
             </Routes>
         </div>
     );
