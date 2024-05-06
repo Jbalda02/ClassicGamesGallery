@@ -5,7 +5,14 @@ import WordleIcon from './Assets/letter-uppercase-square-w-svgrepo-com.svg';
 import SudokuIcon from "./Assets/sudoku-svgrepo-com.svg";
 import SpaceInvIcon from './Assets/game-svgrepo-com.svg';
 import {Link, Routes} from "react-router-dom";
-import GameCanvas from "./GameCanvas";
+
+import  SpaceInvadersGame from './GamesComponents/SpaceInvadersGame';
+import  WordleGame from './GamesComponents/WordleGame';
+import  TetrisGame from './GamesComponents/TetrisGame';
+import  LandMineGame from './GamesComponents/LandMineGame';
+import  SudokuGame from './GamesComponents/SudokuGame';
+import  RockPaperScissorsGame from './GamesComponents/RockPaperScissorsGame';
+
 
 function Gallery() {
     return (
@@ -27,12 +34,12 @@ function Gallery() {
                 </div>
             </div>
             <Routes>
-                <Route path={} element={<GameCanvas game={<TetrisGame />} />} />
-                <Route path={} element={<GameCanvas game={<LandMineGame />} />} />
-                <Route path={} element={<GameCanvas game={<RockPaperScissorsGame />} />} />
-                <Route path={} element={<GameCanvas game={<WordleGame />} />} />
-                <Route path={} element={<GameCanvas game={<SudokuGame />} />} />
-                <Route path={} element={<GameCanvas game={<SpaceInvadersGame />} />} />
+                <Route path={} element={<TetrisGame />} />
+                <Route path={} element={<LandMineGame />} />
+                <Route path={} element={<RockPaperScissorsGame />} />
+                <Route path={} element={<WordleGame />} />
+                <Route path={} element={<SudokuGame />} />
+                <Route path={} element={<SpaceInvadersGame />} />
             </Routes>
         </div>
     );
