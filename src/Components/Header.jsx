@@ -1,8 +1,11 @@
-function Header(){
-    return(
-        <header>
+import {Routes, Route, Link, BrowserRouter} from "react-router-dom";
+import App from "./App";
+
+function Header() {
+    return (
+        <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="#">Classic Games Web page</a>
+                <a href="#" className="navbar-brand" href="#">Classic Games Web page</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -15,13 +18,13 @@ function Header(){
                             <a className="nav-link" href="#"> <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Github</a>
+                            <a className="nav-link" href="https://github.com/Jbalda02">Github</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
+                            <a className="nav-link" href="https://github.com/Jbalda02">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Info</a>
+                            <a className="nav-link" href="https://github.com/Jbalda02">Contact Info</a>
                         </li>
                         <li className="nav-item dropdown">
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -34,7 +37,7 @@ function Header(){
                     </ul>
                 </div>
             </nav>
-        </header>
+        </div>
     );
 
 }
