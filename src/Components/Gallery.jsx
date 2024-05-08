@@ -22,11 +22,11 @@ function Gallery() {
                     <Link to="/WordleGame" className="col-sm"><img src={WordleIcon} alt="Imagen Icono Wordle" className=" w-100 p-3" /></Link>
                     <Link to="/SudokuGame" className="col-sm"><img src={SudokuIcon} alt="Imagen Icono Sudoku" className="w-100 p-3" /></Link>
                     <Link to="/SpaceInvadersGame" className="col-sm"><img src={SpaceInvIcon} alt="Imagen Icono Space Invaders" className="w-100 pl-5" /></Link>
+                    
                 </div>
             </div>
 
         </div>
     );
 }
-
 export default Gallery
