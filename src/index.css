@@ -12,7 +12,34 @@ body {
                   font-style: normal;
                   font-size: xxx-large;
                 }
-
+.pixelify-sans-title-2 {
+                  font-family: "Pixelify Sans", sans-serif;
+                  font-optical-sizing: auto;
+                  font-style: normal;
+                  font-size: xl-large;
+                }
+    
+                
+                .oswald-text {
+                  font-family: "Oswald", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 400;
+                  font-style: normal;
+                }
+.Tetris-game {
+                position: absolute;
+                top:0;
+                left: 200px;
+                width: 75%; 
+                height: 75%;
+                
+}
+.Tetris-game-frame{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
