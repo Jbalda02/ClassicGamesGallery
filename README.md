@@ -1,4 +1,4 @@
-#Proyecto de galleria de juegos practicos con react y NextJS#
+#Proyecto de galleria de juegos practicos con react 
 
 En este proyecto Se Realiza una pagina web sencilla con juegos sencillos 
 Se tiene que comprabar manejo de librerias como Bootstrap, manejo de React y Uso del estado y de APis simples 
