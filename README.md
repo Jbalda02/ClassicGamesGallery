@@ -1,7 +1,6 @@
-#Proyecto de galleria de juegos practicos con react 
+# Classic Games Gallery
 
-En este proyecto Se Realiza una pagina web sencilla con juegos sencillos 
-Se tiene que comprabar manejo de librerias como Bootstrap, manejo de React y Uso del estado y de APis simples 
+Classic Games Gallery is a web application that showcases various classic games. This project is built using React and includes games like Sudoku.
+Use of React Router to create a SinglePage Application
 
-Se planea mostrar y recrear 6 juegos sencillos para practicar las habilidades 
-
+https://classic-games-gallery-lpw7.vercel.app
