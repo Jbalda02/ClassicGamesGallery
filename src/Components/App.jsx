@@ -24,7 +24,7 @@ function App() {
                 <Route path={"/PaperRockScissorsGame"} element={<RockPaperScissorsGame />} />
                 <Route path={"/WordleGame"} element={<WordleGame />} />
                 <Route path={"/SudokuGame"} element={<SudokuGame />} />
-                <Route path={"/SpaceInvaders"} element={<SpaceInvadersGame />} />
+                <Route path={"/SpaceInvadersGame"} element={<SpaceInvadersGame />} />
             </Routes>
         </BrowserRouter>
     )
